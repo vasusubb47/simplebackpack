@@ -57,7 +57,7 @@ You also get **6 dedicated equipment slots** (1 for your Quiver, 5 for Backpack-
 
 **Vasu Subbannavar**
 GitHub: [@vasusubb47](https://github.com/vasusubb47)
-Project repo: *coming soon*
+Project repo: [simplebackpack](https://github.com/vasusubb47/simplebackpack)
 
 ## 📄 License
 
@@ -69,4 +69,6 @@ Looking to contribute or understand how this mod is built under the hood? See [D
 
 ---
 
-*This is a personal hobby project — made for fun and to learn NeoForge modding. Contributions, suggestions, and feedback are welcome once the repo is public!*
+> *This is a personal hobby project — made for fun and to learn NeoForge modding. Contributions, suggestions, and feedback are welcome once the repo is public!*
+
+> A note on how this mod was made: AI tools were used to help brainstorm feature ideas, write this README, and generate some textures (I'm not an artist!). All the actual code was written by hand, without AI assistance.*
