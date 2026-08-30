@@ -1,7 +1,5 @@
 {
-  "itemGroup.simple_backpack": "Example Mod Tab",
-  "block.simple_backpack.example_block": "Example Block",
-  "item.simple_backpack.example_item": "Example Item",
+  "item.simple_backpack.wrapper": "Wrapper",
 
   "simple_backpack.configuration.title": "Simple backpack Configs",
   "simple_backpack.configuration.section.simple_backpack.common.toml": "Simple backpack Configs",

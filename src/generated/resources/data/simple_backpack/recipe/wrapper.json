@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wrapper",
+  "ingredients": [
+    "minecraft:leather",
+    "minecraft:honeycomb",
+    "#minecraft:wool",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "simple_backpack:wrapper"
+  }
+}
