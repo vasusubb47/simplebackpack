@@ -1,5 +1,7 @@
 {
   "item.simple_backpack.wrapper": "Wrapper",
+  "item.simple_backpack.pouch": "Pouch",
+  "container.simplebackpack.pouch": "Pouch",
 
   "simple_backpack.configuration.title": "Simple backpack Configs",
   "simple_backpack.configuration.section.simple_backpack.common.toml": "Simple backpack Configs",

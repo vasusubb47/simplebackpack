@@ -44,5 +44,12 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(Items.LEATHER), has(Items.LEATHER))
                 .group("wrapper")
                 .save(output);
+
+        shapeless(RecipeCategory.MISC, ModItems.POUCH.get(), 1)
+                .requires(ModItems.WRAPPER.get(), 4)
+                .requires(Items.CHEST)
+                .unlockedBy(getHasName(ModItems.WRAPPER.get()), has(ModItems.WRAPPER.get()))
+                .group("Pouch")
+                .save(output);
     }
 }

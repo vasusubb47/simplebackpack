@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Pouch",
+  "ingredients": [
+    "simple_backpack:wrapper",
+    "simple_backpack:wrapper",
+    "simple_backpack:wrapper",
+    "simple_backpack:wrapper",
+    "minecraft:chest"
+  ],
+  "result": {
+    "id": "simple_backpack:pouch"
+  }
+}
