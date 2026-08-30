@@ -1,0 +1,13 @@
+{
+  "itemGroup.simple_backpack": "Example Mod Tab",
+  "block.simple_backpack.example_block": "Example Block",
+  "item.simple_backpack.example_item": "Example Item",
+
+  "simple_backpack.configuration.title": "Simple backpack Configs",
+  "simple_backpack.configuration.section.simple_backpack.common.toml": "Simple backpack Configs",
+  "simple_backpack.configuration.section.simple_backpack.common.toml.title": "Simple backpack Configs",
+  "simple_backpack.configuration.items": "Item List",
+  "simple_backpack.configuration.logDirtBlock": "Log Dirt Block",
+  "simple_backpack.configuration.magicNumberIntroduction": "Magic Number Text",
+  "simple_backpack.configuration.magicNumber": "Magic Number"
+}
