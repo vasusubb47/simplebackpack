@@ -3,6 +3,7 @@ package com.agent47.simple_backpack.item;
 import com.agent47.simple_backpack.ModDataComponents;
 import com.agent47.simple_backpack.Simplebackpack;
 import com.agent47.simple_backpack.item.pouch.PouchItem;
+import com.agent47.simple_backpack.item.quiver.QuiverItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
@@ -27,6 +28,11 @@ public class ModItems {
             new PouchItem(new Item.Properties()
                     .stacksTo(1)
                     .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Simplebackpack.MOD_ID, "pouch")))));
+
+    public static final DeferredItem<Item> QUIVER = ITEMS.register("quiver", () ->
+            new QuiverItem(new Item.Properties()
+                    .stacksTo(1)
+                    .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Simplebackpack.MOD_ID, "quiver")))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

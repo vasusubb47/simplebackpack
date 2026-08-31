@@ -1,6 +1,7 @@
 {
   "item.simple_backpack.wrapper": "Wrapper",
   "item.simple_backpack.pouch": "Pouch",
+  "item.simple_backpack.quiver": "Quiver",
   "container.simplebackpack.pouch": "Pouch",
 
   "simple_backpack.configuration.title": "Simple backpack Configs",

@@ -3,6 +3,8 @@ package com.agent47.simple_backpack;
 import com.agent47.simple_backpack.item.ModItems;
 import com.agent47.simple_backpack.item.pouch.PouchItem;
 import com.agent47.simple_backpack.item.pouch.PouchScreen;
+import com.agent47.simple_backpack.item.quiver.QuiverItem;
+import com.agent47.simple_backpack.item.quiver.QuiverScreen;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
@@ -60,10 +62,15 @@ public class Simplebackpack {
         event.registerItem(Capabilities.Item.ITEM, (stack, itemAccess) ->
                         new ItemAccessItemHandler(itemAccess, ModDataComponents.POUCH_CONTENTS.get(), PouchItem.SLOTS),
                 ModItems.POUCH.get());
+
+        event.registerItem(Capabilities.Item.ITEM, (stack, itemAccess) ->
+                        new ItemAccessItemHandler(itemAccess, ModDataComponents.QUIVER_CONTENTS.get(), QuiverItem.SLOTS),
+                ModItems.QUIVER.get());
     }
 
     private void registerScreens(RegisterMenuScreensEvent event) {
         event.register(ModMenus.POUCH_MENU.get(), PouchScreen::new);
+        event.register(ModMenus.QUIVER_MENU.get(), QuiverScreen::new);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -74,6 +81,7 @@ public class Simplebackpack {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.WRAPPER);
             event.accept(ModItems.POUCH);
+            event.accept(ModItems.QUIVER);
         }
     }
 

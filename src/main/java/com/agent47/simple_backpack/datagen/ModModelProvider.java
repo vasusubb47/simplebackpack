@@ -17,5 +17,6 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(ModItems.WRAPPER.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.POUCH.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.QUIVER.get(), ModelTemplates.FLAT_ITEM);
     }
 }
